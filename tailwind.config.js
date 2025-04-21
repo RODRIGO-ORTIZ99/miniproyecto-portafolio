@@ -1,24 +1,8 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-    purge: ['./*.html'], // Estilos utilizados en HTML
-    darkMode: false,
+export default {
+    darkMode: "class",
+    content: ["./src/**/*.{html,js}"],
     theme: {
-        extend: {
-            colors: {
-                dark: '#0D1117',
-                light: '#FFFFFF',
-                highlight: '#E3FF6A',
-                neonGreen: '#A4FF7A',
-                deepBlue: '#1E293B',
-                softGray: '#8892B0',
-            },
-            backgroundImage: {
-                'gradient-main': 'linear-gradient(135deg, #1E293B 0%, #0D1117 100%)',
-            },
-        },
-    },
-    variants: {
         extend: {},
     },
     plugins: [],
-}
+};

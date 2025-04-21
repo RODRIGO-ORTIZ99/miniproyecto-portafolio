@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+}
+
+.header {
+    background-color: #1E293B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    background-color: #1E293B;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.logo:hover {
+
+    color: #E3FF6A;
+    text-shadow: 0 0 25px #E3FF6A,
+        0 0 50px #E3FF6A;
+    transform: scale(1.1);
+
+}
+
+span {
+    background-color: #1E293B;
+    color: #E3FF6A;
+}
+
+.navbar {
+    background-color: #1E293B;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.navbar a {
+    background-color: #1E293B;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.botoncontact {
+    text-decoration: none;
+    color: white;
+    background-color: #1E293B;
+    border: solid 2px white;
+    padding: 7px 20px;
+
+
+}
+
+nav {
+
+
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li {
+    border: solid 3px red;
+    width: 30%;
+    height: 80%;
+    list-style: none;
+}
+
+main {
+
+    border: 5px solid rgb(255, 123, 0);
+    margin: 25px 0px;
+}
+
+section {
+    margin: 0px;
+    padding: 5px;
+    height: 600px;
+
+    border: solid 5px rgb(0, 26, 255);
+    display: flex;
+}
+
+section>div {
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    border: solid 5px green;
+    display: flex;
+}
+
+.box1 {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vh;
+    gap: 50px
+}
+
+.box1>div {
+    border: solid 5px red;
+    height: 33%;
+    width: 33%;
+}
+
+.box2 {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vh;
+    gap: 50px
+}
+
+.box2>div {
+    border: solid 5px red;
+    height: 45%;
+    width: 45%;
+}
+
+.box3 {
+    align-items: baseline;
+    padding: 25px 7PX;
+    width: 100vh;
+    display: block;
+}
+
+.box3>h1 {
+    border: solid 5px red;
+    height: 24%;
+    width: 40%;
+}
+
+.box3>p {
+    margin: 150px 0;
+    border: solid 5px red;
+    height: 24%;
+    width: 93%;
+}
+
+.box4 {
+    padding-left: 12%;
+    width: 100vh;
+}
+
+.box4>img {
+    align-items: center;
+    border: solid 5px red;
+    height: 50%;
+    width: 35%;
+}
+
+
+.div-f2 {
+    position: relative;
+    left: 400px;
+}
